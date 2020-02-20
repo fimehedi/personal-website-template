@@ -1,0 +1,147 @@
+/* Typography */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 45px;
+}
+h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+h3{
+    font-size: 20px;
+}
+/* ================ */
+/* Home Banner Area */
+#home-banner-area{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#home-banner-area h2{
+    font-weight: 400;
+}
+.container{    
+    height: 700px;
+    padding: 4% 9%;
+}
+.half-width{
+    width: 50%;
+    float: left;
+}
+.half-width h2{
+    position: relative;
+    top: 30px;
+}
+.half-width #owner-name{
+    color: #EC4C7A;
+}
+.half-width-left{
+    position: relative;
+    top: 70px;
+
+}
+.half-width-left p{
+    padding-bottom: 20px;
+}
+.half-width img{
+    width: 100%;
+}
+.link-btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 8px 30px;
+    background-image: linear-gradient(45deg, #ec4f91, #ed4b70);
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+}
+/* ================ */
+/* Biography Area */
+#biography-area{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#biography-area .half-width img{
+    width: 95%;
+    margin-right: 5%;
+}
+#biography-area .half-width-right{
+    position: relative;
+    text-align: justify;
+    width: 45%;
+    margin-left: 5%;
+    top: 70px;
+}
+#biography-area .half-width-right h2{
+    padding-bottom: 30px;
+}
+#biography-area .half-width-right p{
+    padding-bottom: 30px;
+}
+/* ================ */
+/* Latest Work Area */
+#latest-work-area{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#latest-work-area .container{
+    height: 400px;
+}
+#latest-work-area h2{
+    text-align: center;
+    padding-bottom: 30px;
+}
+#latest-work-area .single-work{
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+}
+#latest-work-area .single-work:last-child{
+    margin-right: 0;
+}
+#latest-work-area img{
+    width: 100%;
+}
+/* ================ */
+/* Latest Work Area */
+#testimonial-area{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#testimonial-area .container{
+    text-align: center;
+    height: 600px;
+}
+#testimonial-area p{
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+#testimonial-area h4{
+    margin: 50px 0 0 0;
+}
+#testimonial-area a{
+    display: inline-block;
+    text-transform: none;
+    padding: 30px 100px ;
+    margin-top: 40px;
+}
+#testimonial-area a h3{
+    margin: 5px;
+}
+#testimonial-area a h5{
+    margin: 5px;
+}
+/* ================ */
+/* Footer Area */
+footer{
+    text-align: center;
+    color: #707070;
+}
