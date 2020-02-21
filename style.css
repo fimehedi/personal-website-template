@@ -101,11 +101,11 @@ ul{
     background-size: cover;
 }
 #latest-work-area .container{
-    height: 400px;
+    height: 500px;
 }
 #latest-work-area h2{
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 #latest-work-area .single-work{
     float: left;
