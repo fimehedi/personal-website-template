@@ -24,6 +24,9 @@ h3{
 #home-banner-area h2{
     font-weight: 400;
 }
+#home-banner-area p{
+    color: #707070;
+}
 .container{    
     height: 700px;
     padding: 4% 9%;
@@ -42,7 +45,6 @@ h3{
 .half-width-left{
     position: relative;
     top: 70px;
-
 }
 .half-width-left p{
     padding-bottom: 20px;
@@ -82,6 +84,7 @@ h3{
 }
 #biography-area .half-width-right p{
     padding-bottom: 30px;
+    color: #707070;
 }
 /* ================ */
 /* Latest Work Area */
@@ -124,6 +127,9 @@ h3{
     margin: 0 auto;
     padding-bottom: 40px;
 }
+#testimonial-area p small{
+    color: #707070;
+}
 #testimonial-area h4{
     margin: 50px 0 0 0;
 }
@@ -140,8 +146,47 @@ h3{
     margin: 5px;
 }
 /* ================ */
+/* Contact Form Area */
+#contact-form-area{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#contact-form-area .contact-form-head{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.form-group{
+    margin-bottom: 1rem;
+    line-height: 1.8;
+    font-weight: 400;
+}
+.contact-form{
+    padding-top: 50px;
+}
+.form-control{
+    width: 90%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    outline-color: black;
+    font-size: 15px;
+}
+.submit-btn{
+    text-transform: uppercase;
+    padding: 12px 30px;
+    background-image: linear-gradient(45deg, #ec4f91, #ed4b70);
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+/* ================ */
 /* Footer Area */
 footer{
     text-align: center;
     color: #707070;
 }
+/* ================ */
