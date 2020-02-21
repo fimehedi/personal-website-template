@@ -66,7 +66,7 @@ ul{
 }
 .link-btn:hover{
     background-image: linear-gradient(-45deg, #ec4f91, #ed4b70);
-
+    transition: .5s ease;
 }
 /* ================ */
 /* Biography Area */
@@ -117,6 +117,10 @@ ul{
 }
 #latest-work-area img{
     width: 100%;
+}
+#latest-work-area img:hover{
+    box-shadow: 10px 10px 30px gray;
+    transition: .5s ease;
 }
 /* ================ */
 /* Latest Work Area */
@@ -192,7 +196,7 @@ ul{
 }
 .submit-btn:hover{
     background-image: linear-gradient(-45deg, #ec4f91, #ed4b70);
-
+    transition: .5s ease;
 }
 /* ================ */
 /* Social Icon Area */
@@ -214,6 +218,7 @@ ul{
 }
 #social-icon-area i:hover{
     opacity: 1;
+    transition: .5s ease;
 }
 /* Footer Area */
 /* ================ */
