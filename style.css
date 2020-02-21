@@ -17,6 +17,9 @@ h3{
 ul{
     list-style: none;
 }
+textarea {
+    resize: none;
+ }
 /* ================ */
 /* Home Banner Area */
 #home-banner-area{
