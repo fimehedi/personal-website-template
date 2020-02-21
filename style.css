@@ -173,6 +173,9 @@ textarea {
     text-align: center;
     padding-bottom: 30px;
 }
+.contact-form-head p{
+    color: #707070;
+}
 .form-group{
     margin-bottom: 1rem;
     line-height: 1.8;
